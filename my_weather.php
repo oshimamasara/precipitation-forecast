@@ -26,7 +26,7 @@ for ($i=0; $i<$data_length; $i++){
     $hour = substr_replace(substr($date,8),":",2);
     $minute = substr($date,10);
     print $hour."時".$minute."分　";
-    print "降水確率: ".$rainy."% <br>";
+    print "予測雨量: ".$rainy."mm/h <br>";
     print "</li>";
 }
 print "</ul>";
